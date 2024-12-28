@@ -1,3 +1,28 @@
 # Projets-capteurs
-Scripts R et données pour analyser les températures enregistrées par des capteurs en août 2024.
-Ce projet a été réalisé dans le cadre de mon mémoire de master à l'Université de Lausanne. Les données contenues dans "data" correspondent à des températures récoltées par huit capteurs de température installés dans une friche en Suisse. Ces données couvrent tout le mois d'août 2024 et visent à analyser l'évolution de la température au cours d'un des mois d'été de cette année et permettent également de vérifier si certains facteurs, tels que la topographie, la morphologie du bâti, l'ombre, la végétalisation et l'effet venturi. Ensuite, le script mis à disposition dans "script" permet de produire un certains nombre de graphiques permettant de visualiser les données et de les interpréter convenablement.
+Scripts R et données pour l'analyse des températures en août 2024
+Ce projet a été réalisé dans le cadre de mon mémoire de master à l'Université de Lausanne. Il vise à analyser les températures enregistrées par huit capteurs installés dans une friche en Suisse, durant tout le mois d'août 2024.
+
+Contenu du projet
+📂 data
+Ce dossier contient les données brutes issues des capteurs, avec des relevés de température pour tout le mois d'août 2024. Ces données permettent d'explorer les facteurs suivants :
+
+Topographie
+Morphologie du bâti
+Ombre
+Végétalisation
+Effet venturi
+📂 script
+Ce dossier contient un script R permettant de :
+
+Visualiser les données sous forme de graphiques
+Interpréter les résultats en lien avec les facteurs environnementaux mentionnés
+Objectifs de l'analyse
+Étudier l'évolution des températures durant un mois d'été en 2024
+Identifier les impacts des facteurs environnementaux sur les températures relevées
+Utilisation
+Données
+Placez les fichiers du dossier data dans votre environnement de travail.
+
+Script R
+Exécutez le script disponible dans script pour générer des visualisations et analyser les données.
+
