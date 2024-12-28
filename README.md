@@ -9,13 +9,13 @@ Il vise à analyser les températures enregistrées par huit capteurs installés
 ## Contenu du projet
 
 ### 📂 `data`
-Ce dossier contient les données brutes issues des capteurs, avec des relevés de température pour tout le mois d'août 2024.  
+Ce dossier contient les données brutes issues des capteurs, avec des relevés de température pour tout le mois d'août 2024. Des colonnes renseignant les coordonnées des capteurs référencées en **CH1903+** permettent de cartographier les différentes températures.
 Ces données permettent d'explorer les facteurs suivants :  
-- **Topographie**  
-- **Morphologie du bâti**  
-- **Ombre**  
-- **Végétalisation**  
-- **Effet venturi**
+- Topographie
+- Typologies des surfaces de revêtement
+- Morphologie du bâti
+- Effet venturi
+- Ombre
 
 ### 📂 `script`
 Ce dossier contient un script R permettant de :
